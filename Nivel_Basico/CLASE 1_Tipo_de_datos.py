@@ -91,8 +91,8 @@ edad= int(input("Ingresar edad:"))
 peso= float(input("Ingresar peso en kg:"))
 
 if edad >=18:
-    print(f"{nombre_apellido} tiene {edad} y es mayor de edad, pesa {round(peso,3)} kg") #Funcion round para elegir cuanto decimales deseas visualizar 
+    print(f"{nombre_apellido} tiene {edad} y es mayor de edad, pesa {round(peso,2)} kg") #Funcion round para elegir cuanto decimales deseas visualizar 
 else: 
-    print(f"{nombre_apellido} tiene {edad} y es menor de edad, pesa {round(peso,3)} kg")
+    print(f"{nombre_apellido} tiene {edad} y es menor de edad, pesa {round(peso,2)} kg")
 
 
