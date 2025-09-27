@@ -1,0 +1,6 @@
+producto: lapiz, cantidad: 3, precio: 0.5,Total:1.5producto: cuaderno, cantidad: 2, precio: 1.25,Total:2.5producto: lapiz, cantidad: 3, precio: 0.5,Total:1.5producto: cuaderno, cantidad: 2, precio: 1.25,Total:2.5producto: lapiz, cantidad: 3, precio: 0.5,Total:1.5
+producto: cuaderno, cantidad: 2, precio: 1.25,Total:2.5
+producto: lapiz, cantidad: 3, precio: 0.5,Total:1.5
+producto: cuaderno, cantidad: 2, precio: 1.25,Total:2.5
+producto: lapiz, cantidad: 3, precio: 0.5,Total:1.5
+producto: cuaderno, cantidad: 2, precio: 1.25,Total:2.5
