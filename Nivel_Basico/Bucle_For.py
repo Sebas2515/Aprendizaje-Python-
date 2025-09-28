@@ -23,11 +23,3 @@ for x in range(1,7):
     cont_num = cont_num+1
 print(f"La suma total es {suma_numeros} y el numero de vueltas {cont_num}")
 """
-for num in range (2,10,2):
-    print(f"{num} - Bienvenido al curso de python")
-print("Fin del bucle")
-
-frutas=["manzana","banana","cereza"]
-for fruta in frutas:
-    print  (fruta) 
-    

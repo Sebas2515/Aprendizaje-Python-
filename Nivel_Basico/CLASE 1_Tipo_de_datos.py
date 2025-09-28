@@ -79,13 +79,15 @@ valores. append(20) #no se puede agregar
 print(valores)
 """""
 #Ejercicios de practica 
+"""
 familia_mendoza= list()
 familia_mendoza=["Pamela", "Sebas", "Salvador", "Mayra"]
 familia_mendoza.append("Marina")
 familia_mendoza.pop(0)
 familia_mendoza[1]="Gordito pop"
 print(familia_mendoza)
-
+"""
+""""
 nombre_apellido= input("Ingresar nombre y apellido:")
 edad= int(input("Ingresar edad:"))
 peso= float(input("Ingresar peso en kg:"))
@@ -94,5 +96,5 @@ if edad >=18:
     print(f"{nombre_apellido} tiene {edad} y es mayor de edad, pesa {round(peso,2)} kg") #Funcion round para elegir cuanto decimales deseas visualizar 
 else: 
     print(f"{nombre_apellido} tiene {edad} y es menor de edad, pesa {round(peso,2)} kg")
-
+"""
 

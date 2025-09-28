@@ -84,9 +84,4 @@ else:
 
 #Ejercicios 26/09/25
 
-x=10
-if x>10:
-    print("x es positivo")
-elif x==0
-    print ("x es cero")
-    
+
