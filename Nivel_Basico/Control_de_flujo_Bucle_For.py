@@ -7,13 +7,14 @@ parametro de inicio, la cantidad, y el salto
     print(f"{num} - Bienvenido al curso de Python")
 print("Fin del bucle")
  """
-# frutas = ["manzana","banana","cereza"]
-# for fruta in frutas:
-#     print(fruta)
+frutas = ["manzana","banana","cereza"]
+for fruta in frutas: #la variable fruta ingresa a la lista frutas 
+     print(fruta)
 
 # mensaje= "Bienvenido al curso de Python"
 # for letra in mensaje:
 #     print(letra)
+
 """
 suma_numeros= 0 
 cont_num = 0

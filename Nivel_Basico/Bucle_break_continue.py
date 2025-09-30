@@ -1,5 +1,6 @@
 """
 break .- Se utiliza para salir inmediatamente de un bucle.
+continue me permite omitir el resto del codigo.
 """
 """
 for i in range(10):
@@ -24,9 +25,12 @@ for i in range(10):
     print(i) 
 """
 
+"""
 contador = 0 
 while contador<10:
     contador +=1
     if contador %2==0:
         continue
     print(contador)
+"""
+

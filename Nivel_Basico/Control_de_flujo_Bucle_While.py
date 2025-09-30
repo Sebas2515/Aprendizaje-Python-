@@ -4,9 +4,9 @@ while condicion:
 #Bloque de codigo
 """
 
-""""
+"""
 contador = 0 
-while contador <5:
+while contador <5: #while=mientras
     print(contador)
     contador +=1
 """
@@ -20,7 +20,7 @@ while suma <20:
     n +=1
 print (f"La suma es {suma}")
 """
-
+""""
 usuario_valido= "Arruiz"
 contrase_valida="123"
 intentos=3
@@ -36,3 +36,20 @@ while intentos >0:
         print(f"Usuario o contraseña incorrecta, intentos restantes {intentos}")
 if intentos ==0:
     print ("Tu cuenta se bloqueara por 24 horas!!")
+"""
+
+usuario_valido= "Sebas"
+contrase_valida= "123"
+intentos = 3
+persona= "Sebastian Mendoza"
+while intentos >0:
+    usuario=input("Ingrese el usuario:")
+    contraseña=input("Ingrese la contraseña:")
+    if usuario==usuario_valido and contraseña==contrase_valida:
+        print(f'Inicio de sesion exitoso, bienvenido al sistema {persona} un gusto tenerlo por aca')
+        break
+    else:
+        intentos -=1
+        print(f'Usuario o contraseña incorrecta, intentos restantes {intentos}')
+if intentos==0:
+    print('Tu cuenta se bloqueara en 24 horas!!')
