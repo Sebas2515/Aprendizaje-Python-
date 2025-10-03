@@ -2,12 +2,12 @@
 break .- Se utiliza para salir inmediatamente de un bucle.
 continue me permite omitir el resto del codigo.
 """
-"""
+
 for i in range(10):
     if i ==5: 
         break 
     print(i)
-"""
+
 
 """
 contador=0
@@ -34,3 +34,7 @@ while contador<10:
     print(contador)
 """
 
+for i in range(10):
+    if i%2==0:
+        continue #saltar cuando el numero sea par, hace que no se cumpla esa condicion 
+    print(i) 
