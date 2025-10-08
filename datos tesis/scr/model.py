@@ -3,7 +3,7 @@ import numpy as np
 import statsmodels.tsa.stattools as ts
 import openpyxl
 from tabulate import tabulate
-"""
+
 excel_dataframe= openpyxl.load_workbook("model.xlsx")
 
 dataframe=excel_dataframe.active
@@ -21,6 +21,6 @@ headers = ["S&P", "PBI", "TCRM", "TIR", "IPC", "Empleo"]
 headers_align = (("center",)*6)
 
 print(tabulate(data,headers=headers,tablefmt="fancy_grid", colalign=headers_align))
-"""
+
 
 
