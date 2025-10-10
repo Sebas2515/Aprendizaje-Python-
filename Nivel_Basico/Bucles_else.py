@@ -17,3 +17,4 @@ while contador<3:
     contador +=1
 else:
     print("El bucle ha terminado porque la condicion es falsa")
+
