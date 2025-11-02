@@ -1,3 +1,4 @@
+"""expresion condicional, permite analizar una expresion de manera concisa"""
 """
 Valor_si_verdadero if condicion else valor_si_falso
 """
