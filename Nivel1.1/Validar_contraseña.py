@@ -1,5 +1,6 @@
 #Funcion any() en Python es una función integrada (built-in) que sirve para verificar si 
 # al menos uno de los elementos de un iterable (como una lista, tupla, conjunto, etc.) es verdadero.
+# ¿Existe al menos uno -----?
 """
 def ejemplo_any_002():
     valores = [2,0,0]
@@ -43,6 +44,7 @@ contrasena = "Segur@123"
 print(verificar_contrasena(contrasena))
 
 """
+"""
 def verificar_contrasena(contrasena):
     # Verificar longitud mínima (8 caracteres)
     if len(contrasena) < 8:
@@ -58,6 +60,7 @@ def verificar_contrasena(contrasena):
 
     # Verificar si tiene al menos un caracter especial
     especiales = "@#$%&*-+_"
+    #char in especiales: “¿Este carácter está dentro de la lista de caracteres especiales?”
     if not any(char in especiales for char in contrasena):
         return False
 
@@ -68,9 +71,23 @@ def verificar_contrasena(contrasena):
 # Ejemplo de uso
 clave = 'Segura@123'
 print(verificar_contrasena(clave))
+"""
 
-    
 
+def validacion_contraseña (clave):
+    if len(clave)<5:
+        return False
+    if not any (char.isdigit() for char in clave ):
+        return False
+    if not any(char.isupper() for char in clave): 
+        return False 
+    especiales = "@#$%&*-+_"
+    if not any(char in especiales for char in clave):
+        return False
+    return True 
+
+codigo = "Segura1@"
+print(validacion_contraseña(codigo))
 
 
 
