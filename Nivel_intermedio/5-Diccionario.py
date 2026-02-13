@@ -31,3 +31,4 @@ print(mi_diccionario)
 for k,v in mi_diccionario.items():  #items sirve para gestionarar los valores del diccionario 
     print(f"La clave es {k} y el valor es {v}")
 """
+
